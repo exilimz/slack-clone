@@ -50,7 +50,7 @@
     - `app/layout.tsx`: Update to incorporate the new layout structure
 
 ## Application Structure and Routes
-- [ ] Step 5: Create Basic App Routing Structure
+- [x] Step 5: Create Basic App Routing Structure
   - **Task**: Set up the basic routing structure for the application
   - **Files**:
     - `app/(auth)/page.tsx`: Landing page with temporary user selection
@@ -59,7 +59,7 @@
     - `app/(main)/channel/[channelId]/page.tsx`: Channel view
     - `app/(main)/direct/[userId]/page.tsx`: Direct message view
 
-- [ ] Step 6: Create App Context and State Management
+- [x] Step 6: Create App Context and State Management
   - **Task**: Implement context providers for app state
   - **Files**:
     - `lib/context/user-context.tsx`: Context for current user
