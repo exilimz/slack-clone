@@ -1,7 +1,7 @@
 # Implementation Plan
 
 ## Database Schema and Setup
-- [ ] Step 1: Create Database Schema
+- [x] Step 1: Create Database Schema
   - **Task**: Define the database schema with tables for users, channels, messages, and threads
   - **Files**:
     - `db/schema/index.ts`: Export all schema files
@@ -12,7 +12,7 @@
     - `db/schema/channelMembers.ts`: Junction table for users and channels
   - **User Instructions**: After creating these files, run `npm run db:generate` to generate migration files
 
-- [ ] Step 2: Set up Supabase and Run Migrations
+- [x] Step 2: Set up Supabase and Run Migrations
   - **Task**: Initialize Supabase project and run migrations to create tables
   - **Files**:
     - `db/migrations/`: Migration files generated from previous step
@@ -23,7 +23,7 @@
     4. Run `npm run db:migrate` to apply migrations
 
 ## Core UI Components
-- [ ] Step 3: Install and Set Up shadcn/ui Components
+- [x] Step 3: Install and Set Up shadcn/ui Components
   - **Task**: Install required shadcn/ui components for the application
   - **Files**:
     - `components/ui/`: Various UI component files
@@ -40,7 +40,7 @@
     npx shadcn-ui@latest add separator
     ```
 
-- [ ] Step 4: Create Layout and Navigation Components
+- [x] Step 4: Create Layout and Navigation Components
   - **Task**: Implement the main layout with sidebar and content area
   - **Files**:
     - `components/layout/sidebar.tsx`: Main sidebar component
